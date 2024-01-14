@@ -1,0 +1,42 @@
+/* Add this CSS to your component or a separate CSS file */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  h1 {
+    color: #2196F3; /* Blue */
+  }
+  
+  h1.timer {
+    color: #4CAF50; /* Green */
+  }
+  
+  .link-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  a {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #2196F3; /* Blue */
+    background-color: #fff; /* White */
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #4CAF50; /* Green */
+    color: #fff; /* White */
+  }
+
+  p {
+    color: purple;
+  }
+  
