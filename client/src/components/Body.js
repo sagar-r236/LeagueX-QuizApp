@@ -48,7 +48,7 @@ const Body = () => {
     setLobbyData(data.rooms)
   })
 
-  return isInRoom ? <><h1>Lobby Data</h1><p>You are alreay present in the room <a href="/"> Exit room</a></p></> :
+  return isInRoom ? <><h1>Lobby Data</h1><p>You are already present in the room <a href="/"> Exit room</a></p></> :
     (
     <div>
       <h1>Lobby Data</h1>
